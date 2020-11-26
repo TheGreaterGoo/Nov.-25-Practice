@@ -9,6 +9,8 @@ public class Runner {
         System.out.println("When does this movie release?");
         String release1 = scan.nextLine();
 
+        scan.close();
+
         Movie movie1 = new Movie(title1, release1);
         Movie movie2 = new Movie("Super Mario Movie", "N/A release date");
 
